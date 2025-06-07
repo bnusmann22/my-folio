@@ -4,6 +4,29 @@ const About = () => {
   return (
     <section id="about" className="py-20 relative">
       <div className="container mx-auto px-6">
+        
+          {/* Chosen Section */}
+          {/* <div
+            className="flex flex-col items-center justify-center w-[60vw] h-[60vh] mx-auto my-10 animate-fade-in-up"
+            style={{ minHeight: '340px' }}
+          >
+            <span className="block text-2xl md:text-3xl font-semibold text-muted-foreground mb-2 tracking-wide">
+              . . .of course,
+            </span>
+            <span
+              className="block font-extrabold text-5xl md:text-7xl lg:text-8xl bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent animate-gradient-move"
+              style={{
+                letterSpacing: '0.05em',
+                lineHeight: 1.1,
+                transition: 'background-position 1s',
+                backgroundSize: '200% 200%',
+                backgroundPosition: '0% 50%',
+              }}
+            >
+              I AM A CHOSEN
+            </span>
+          </div> */}
+          {/* End Chosen Section */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
             About Me
@@ -64,7 +87,7 @@ const About = () => {
               <div className="space-y-2">
                 <div className="font-medium">BSc Software Engineering</div>
                 <div className="text-sm text-muted-foreground">Bayero University Kano</div>
-                <div className="text-sm text-muted-foreground">2021 - Present</div>
+                <div className="text-sm text-muted-foreground">2023 - Present</div>
               </div>
             </Card>
           </div>

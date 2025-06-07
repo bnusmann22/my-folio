@@ -43,7 +43,7 @@ const Footer = () => {
                 <span className="text-xl">💼</span>
               </a>
               <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                <span className="text-xl">🐦</span>
+                <span className="text-xl">X</span>
               </a>
               <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
                 <span className="text-xl">📷</span>
@@ -85,13 +85,13 @@ const Footer = () => {
             <h3 className="font-semibold mb-4 text-primary">Get In Touch</h3>
             <div className="space-y-2 text-sm">
               <div className="text-muted-foreground">
-                📧 jamil.dev@example.com
+                📧bn.usmannn22@gmail.com
               </div>
               <div className="text-muted-foreground">
-                📱 +234 123 456 7890
+                📱 +234 916 015 2870
               </div>
               <div className="text-muted-foreground">
-                📍 Kano, Nigeria
+                📍 Abuja - Kano, Nigeria
               </div>
             </div>
           </div>

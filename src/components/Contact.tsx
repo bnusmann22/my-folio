@@ -41,17 +41,17 @@ const Contact = () => {
   const contactInfo = [
     {
       title: "Email",
-      value: "jamil.dev@example.com",
+      value: "bn.usmannn22@gmail.com",
       icon: "📧"
     },
     {
       title: "Phone",
-      value: "+234 123 456 7890",
+      value: "+234 916 015 2870",
       icon: "📱"
     },
     {
       title: "Location",
-      value: "Kano, Nigeria",
+      value: "Abuja - Kano, Nigeria",
       icon: "📍"
     },
     {
@@ -62,10 +62,10 @@ const Contact = () => {
   ];
 
   const socialLinks = [
-    { name: "GitHub", url: "#", icon: "💻" },
+    { name: "GitHub", url: "github.com/bnusmann22", icon: "💻" },
     { name: "LinkedIn", url: "#", icon: "💼" },
-    { name: "Twitter", url: "#", icon: "🐦" },
-    { name: "Instagram", url: "#", icon: "📷" }
+    { name: "Twitter", url: "x.com/bnUsmann22", icon: "X" },
+    { name: "Instagram", url: "instagram.com/bnUsmann22", icon: "📷" }
   ];
 
   return (

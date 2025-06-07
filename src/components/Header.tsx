@@ -75,7 +75,7 @@ const Header = () => {
         <div className={`md:hidden overflow-hidden transition-all duration-300 ${
           isMenuOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
         }`}>
-          <div className="pt-4 pb-2 space-y-2">
+          <div className="pt-4 pb-2 space-y-2 bg-neutral-500">
             {navItems.map((item) => (
               <button
                 key={item.id}

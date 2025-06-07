@@ -5,7 +5,7 @@ const Services = () => {
   const services = [
     {
       title: "Starter Package",
-      price: "₦20,000",
+      price: "$100",
       description: "Single-page website with basic features",
       features: [
         "Responsive single-page design",
@@ -20,7 +20,7 @@ const Services = () => {
     },
     {
       title: "Standard Package",
-      price: "₦40,000",
+      price: "$250",
       description: "Multi-page website with responsive design",
       features: [
         "Up to 5 responsive pages",
@@ -37,7 +37,7 @@ const Services = () => {
     },
     {
       title: "Premium Package",
-      price: "₦70,000+",
+      price: "$400+",
       description: "Full-stack web application with backend support",
       features: [
         "Custom web application",

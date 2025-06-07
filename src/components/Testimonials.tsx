@@ -6,8 +6,8 @@ const Testimonials = () => {
 
   const testimonials = [
     {
-      name: "Sarah Johnson",
-      role: "Project Manager at TechCorp",
+      name: "Idris Muktar",
+      role: "Network Engineer @Meed nets",
       content: "Jamil delivered exceptional work on our web application. His attention to detail and problem-solving skills are outstanding. The project was completed ahead of schedule and exceeded our expectations.",
       avatar: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&h=100&fit=crop&crop=face",
       rating: 5
@@ -20,7 +20,7 @@ const Testimonials = () => {
       rating: 5
     },
     {
-      name: "Aisha Mohammed",
+      name: "Bilal Usman Inuwa",
       role: "UI/UX Designer",
       content: "Jamil perfectly translated our designs into responsive, interactive web interfaces. His understanding of modern CSS and JavaScript made the collaboration seamless.",
       avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face",
