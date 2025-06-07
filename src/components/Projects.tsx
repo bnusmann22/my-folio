@@ -110,13 +110,19 @@ const Projects = () => {
         </div>
 
         <div className="text-center mt-12">
-          <Button 
-            size="lg" 
-            variant="outline"
-            className="border-primary text-primary hover:bg-primary hover:text-primary-foreground px-8"
+          <a
+            href="https://github.com/bnusmann22?tab=repositories"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            View All Projects
-          </Button>
+            <Button 
+              size="lg" 
+              variant="outline"
+              className="border-primary text-primary hover:bg-primary hover:text-primary-foreground px-8"
+            >
+              View All Projects
+            </Button>
+          </a>
         </div>
       </div>
     </section>

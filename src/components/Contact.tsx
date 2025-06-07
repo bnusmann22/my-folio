@@ -62,10 +62,10 @@ const Contact = () => {
   ];
 
   const socialLinks = [
-    { name: "GitHub", url: "github.com/bnusmann22", icon: "💻" },
-    { name: "LinkedIn", url: "#", icon: "💼" },
-    { name: "Twitter", url: "x.com/bnUsmann22", icon: "X" },
-    { name: "Instagram", url: "instagram.com/bnUsmann22", icon: "📷" }
+    { name: "GitHub", url: "https://github.com/bnusmann22", icon: "💻" },
+    { name: "LinkedIn", url: "https://www.linkedin.com/in/Abdullahi-jamil", icon: "💼" },
+    { name: "Twitter", url: "https://twitter.com/bnUsmann22", icon: "X" },
+    { name: "Instagram", url: "https://www.instagram.com/bnUsmann22", icon: "📷" }
   ];
 
   return (
