@@ -2,6 +2,9 @@ import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 
 const Services = () => {
+  const handleDiscuss =()=>{
+
+  }
   const services = [
     {
       title: "Starter Package",
@@ -13,7 +16,7 @@ const Services = () => {
         "Social media integration",
         "Mobile-friendly layout",
         "Basic SEO optimization",
-        "1 round of revisions"
+        "1 round of revisions"  
       ],
       color: "from-blue-500 to-cyan-500",
       popular: false
@@ -141,6 +144,7 @@ const Services = () => {
             <Button 
               size="lg"
               className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white px-8"
+              onClick = {handleDiscuss}
             >
               Discuss Your Project
             </Button>

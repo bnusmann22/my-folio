@@ -18,6 +18,7 @@ const Header = () => {
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
       setIsMenuOpen(false);
+      console.log(sectionId)
     }
   };
 
