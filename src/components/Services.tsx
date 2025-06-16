@@ -3,7 +3,7 @@ import { Button } from '@/components/ui/button';
 
 const Services = () => {
   const handleDiscuss =()=>{
-
+    window.open('https://wa.me/2349160152870', '_blank')
   }
   const services = [
     {
