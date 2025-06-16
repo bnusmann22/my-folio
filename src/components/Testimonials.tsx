@@ -6,7 +6,11 @@ const Testimonials = () => {
 
   const testimonials = [
     {
+<<<<<<< HEAD
       name: "Idris Mukhtar",
+=======
+      name: "Idris Muktar",
+>>>>>>> 01b9b5ceafc90ce718df9648482f3988394c7ded
       role: "Network Engineer @Meed nets",
       content: "Jamil delivered exceptional work on our web application. His attention to detail and problem-solving skills are outstanding. The project was completed ahead of schedule and exceeded our expectations.",
       avatar: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&h=100&fit=crop&crop=face",

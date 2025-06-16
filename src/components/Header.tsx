@@ -18,7 +18,10 @@ const Header = () => {
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
       setIsMenuOpen(false);
+<<<<<<< HEAD
       console.log(sectionId)
+=======
+>>>>>>> 01b9b5ceafc90ce718df9648482f3988394c7ded
     }
   };
 
