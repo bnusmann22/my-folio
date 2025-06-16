@@ -2,12 +2,9 @@ import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 
 const Services = () => {
-<<<<<<< HEAD
   const handleDiscuss =()=>{
     window.open('https://wa.me/2349160152870', '_blank')
   }
-=======
->>>>>>> 01b9b5ceafc90ce718df9648482f3988394c7ded
   const services = [
     {
       title: "Starter Package",
@@ -19,11 +16,6 @@ const Services = () => {
         "Social media integration",
         "Mobile-friendly layout",
         "Basic SEO optimization",
-<<<<<<< HEAD
-        "1 round of revisions"  
-=======
-        "1 round of revisions"
->>>>>>> 01b9b5ceafc90ce718df9648482f3988394c7ded
       ],
       color: "from-blue-500 to-cyan-500",
       popular: false
@@ -151,10 +143,7 @@ const Services = () => {
             <Button 
               size="lg"
               className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white px-8"
-<<<<<<< HEAD
               onClick = {handleDiscuss}
-=======
->>>>>>> 01b9b5ceafc90ce718df9648482f3988394c7ded
             >
               Discuss Your Project
             </Button>
