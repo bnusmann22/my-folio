@@ -7,43 +7,43 @@ const Testimonials = () => {
   const testimonials = [
     {
       name: "Idris Mukhtar",
-      role: "Network Engineer @Meed nets",
-      content: "Jamil delivered exceptional work on our web application. His attention to detail and problem-solving skills are outstanding. The project was completed ahead of schedule and exceeded our expectations.",
+      role: "Network Engineer @ Meed network",
+      content: "Jamil an amazing learner. His attention to detail and problem-solving skills are outstanding.",
       avatar: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&h=100&fit=crop&crop=face",
       rating: 5
     },
     {
-      name: "Michael Chen",
-      role: "CTO at StartupHub",
-      content: "Working with Jamil was a game-changer for our startup. His React expertise and modern development practices helped us build a scalable platform that our users love.",
+      name: "Sunusi Tanko",
+      role: "CTO at NIHub",
+      content: "Understanding how Jamil brain works is awesomely fascinating , kid with big Dreams💚",
       avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face",
       rating: 5
     },
     {
-      name: "Bilal Usman Inuwa",
-      role: "UI/UX Designer",
-      content: "Jamil perfectly translated our designs into responsive, interactive web interfaces. His understanding of modern CSS and JavaScript made the collaboration seamless.",
+      name: "Maryam Ibrahim Mukhtar",
+      role: "Project Manager & Lecturer(BUK)",
+      content: "Jamil is a potential driven individual , working with Jamil was reall a thrill🤗",
       avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face",
       rating: 5
     },
     {
-      name: "David Wilson",
-      role: "Business Owner",
-      content: "The website Jamil built for my business has significantly improved our online presence. The SEO optimization work has increased our visibility and customer engagement.",
+      name: "Nasir Idris",
+      role: "CEO G.N.G.R",
+      content: "Its just a mix of enthusiasm and die hard effort while examining Jamil, Kudos he delivers beyond expectations",
       avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face",
       rating: 5
     },
     {
-      name: "Emily Rodriguez",
-      role: "Marketing Director",
-      content: "Jamil's work on our responsive website redesign was exceptional. The new site performs beautifully across all devices and has improved our conversion rates.",
+      name: "Ismail A. BATAGARAWA",
+      role: "AI & ML expert",
+      content: "Jamil's skills and finnese is just mesmerizing , from Web Techonlogies (ReactJS) to other mainframe langueages , indeed he is the CHOSEN ONE😎",
       avatar: "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=100&h=100&fit=crop&crop=face",
       rating: 5
     },
     {
-      name: "Ahmed Hassan",
-      role: "Fellow Developer",
-      content: "Jamil is a talented developer with a keen eye for clean, maintainable code. His passion for learning and helping others makes him a valuable team member.",
+      name: "Ibrahim Isah Egya",
+      role: "Consulting Legal Advocate",
+      content: "Jamil is a talented developer with a truly relentless spirit , and very much in cognisance with all  the legal riddance tied to tech, you can trust him on THAT ⚖💚",
       avatar: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&h=100&fit=crop&crop=face",
       rating: 5
     }
@@ -86,7 +86,7 @@ const Testimonials = () => {
           {duplicatedTestimonials.map((testimonial, index) => (
             <Card 
               key={`${testimonial.name}-${index}`}
-              className="flex-shrink-0 w-80 p-6 bg-card/50 backdrop-blur-sm border-border/50 hover:bg-card/70 transition-all duration-300"
+              className="flex-shrink-0 w-80 p-6 bg-card/50 backdrop-blur-sm border-border/50 hover:bg-card/70 transition-all duration-700"
             >
               <div className="flex items-center mb-4">
                 <img 

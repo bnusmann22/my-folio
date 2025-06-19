@@ -115,3 +115,16 @@
 .animate-gradient-move {
   animation: gradient-move 4s ease-in-out infinite;
 }
+
+@keyframes slide-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+.animate-slide-left {
+  animation: slide-left 38s linear infinite; /* <-- Increase this value for slower speed */
+}
+
