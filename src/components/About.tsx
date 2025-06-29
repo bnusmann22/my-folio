@@ -1,4 +1,5 @@
 import { Card } from '@/components/ui/card';
+import Jamil from '../assets/Jamil-AI.png'
 
 const About = () => {
   return (
@@ -26,7 +27,9 @@ const About = () => {
               I AM A CHOSEN
             </span>
           </div> */}
+
           {/* End Chosen Section */}
+        
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
             About Me
@@ -34,6 +37,29 @@ const About = () => {
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             Passionate about creating digital experiences that make a difference
           </p>
+        </div>
+
+        <div className="w-full my-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+            
+
+            {/* Image Container */}
+            <div className="w-full h-64 md:h-96 flex items-center justify-center">
+              <img
+                src={Jamil}
+                alt="Placeholder"
+                className="w-full h-full object-cover rounded-xl shadow-lg"
+              />
+            </div>
+                    
+            {/* Quote Section */}
+            <div className="flex flex-col items-center justify-center h-full px-4">
+              <blockquote className="text-2xl md:text-3xl font-semibold italic text-center text-muted-foreground leading-relaxed">
+                "Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful."
+              </blockquote>
+              <span className="mt-4 text-lg text-primary font-bold">— Albert Schweitzer</span>
+            </div>
+          </div>
         </div>
 
         <div className="grid md:grid-cols-2 gap-12 items-center">
