@@ -196,7 +196,7 @@ const Contact = () => {
             <Card className="p-6 bg-gradient-to-r from-green-500/10 to-blue-500/10 border-green-500/20">
               <h4 className="font-bold mb-2 text-primary">Let's Collaborate!</h4>
               <p className="text-sm text-muted-foreground">
-                Whether you need a new website, want to improve an existing one, or have an 
+                Whether you need a new website, want to improve an existing one, or have an                
                 exciting project idea, I'm here to help bring it to life.
               </p>
             </Card>
